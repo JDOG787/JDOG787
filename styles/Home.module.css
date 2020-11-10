@@ -1,3 +1,33 @@
 .container {
     padding: 40px;
 }
+
+.Contact {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text {
+    color: white;
+}
+
+.header {
+    font-size: 3rem;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.subHeader {
+    text-align: right;
+    font-size: 1.7rem;
+    margin-top: 5px;
+}
+
+.imageContainer {
+    padding-top: 160px;
+}
+
+.image {
+    width: 100%;
+}

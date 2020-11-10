@@ -16,13 +16,13 @@ class Navbar extends React.Component {
                         <Link href="#About"><a>About Me</a></Link>
                     </li>
                     <li>
-                        <Link href=""><a>Skills</a></Link>
+                        <Link href="#Skills"><a>Skills</a></Link>
                     </li>
                     <li>
-                        <Link href=""><a>Projects</a></Link>
+                        <Link href="#Projects"><a>Projects</a></Link>
                     </li>
                     <li>
-                        <Link href=""><a>Contact</a></Link>
+                        <Link href="#Contact"><a>Contact</a></Link>
                     </li>
                 </ul>
 

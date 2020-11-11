@@ -34,8 +34,25 @@ class About extends React.Component {
                     }
 
                     .image {
-                        width: 50vw;
+                        width: 100%;
                         height: 100%;
+                    }
+
+                    @media only screen and (max-width: 1045px) {
+                        .About {
+                            grid-template-rows: repeat(2, 1fr);
+                            grid-template-columns: auto;
+                            height: 130vh;
+                        }
+                        
+                        .text {
+                            grid-row: 1 / 2;
+                            padding-top: 0;
+                        }
+
+                        .image {
+                            height: auto;
+                        }
                     }
                 `}</style>
             </div>

@@ -13,3 +13,9 @@ body {
     font-size: 4rem;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 1045px) {
+    .icon {
+        font-size: 3rem;
+    }
+}

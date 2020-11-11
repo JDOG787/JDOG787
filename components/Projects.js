@@ -26,6 +26,15 @@ class Projects extends React.Component {
                         grid-template-columns: repeat(3, 1fr);
                         grid-gap: 20px;
                     }
+
+                    @media only screen and (max-width: 1045px) {
+                        .boxes {
+                            grid-template-columns: auto;
+                        }
+                        .Projects {
+                            height: auto;
+                        }
+                    }
                 `}</style>
             </div>
         )

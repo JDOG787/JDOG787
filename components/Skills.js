@@ -92,6 +92,40 @@ class Skills extends React.Component {
                     .subHeader {
                         font-size: 1.5rem;
                     }
+
+
+                    @media only screen and (max-width: 1045px) {
+                        .Skills {
+                            grid-template-rows: repeat(2, 1fr);
+                            grid-template-columns: auto;
+                            height: auto;
+                        }
+                    }
+
+
+                    @media only screen and (max-width: 570px) {
+                        .graphContainer {
+                            width: 300px;
+                            height: 300px;
+                        }
+
+                        .bar1, .bar2, .bar3 {
+                            width: 60px;
+                        }
+
+                        .bar2 {
+                            left: 75px;
+                        }
+
+                        .bar3 {
+                            left: 150px;
+                        }
+
+                        .label {
+                            margin-right: 20px;
+                            font-size: 13px;
+                        }
+                    }
                 `}</style>
             </div>
         )

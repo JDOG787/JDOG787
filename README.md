@@ -10,7 +10,7 @@ Other technologies I've used:
 
 Currently working on [Pictoshare](https://github.com/jdog787/pictoshare). This project has given me the chance to learn a lot about fullstack apps, and has been really fun to work on!
 
-I'm also wanting to get an internship at [repl.it](https://repl.it), but we will see 😂
+I'm also wanting to get an internship at [relp.it](https://repl.it), but we will see 😂
 
 Not much else to say really 
 

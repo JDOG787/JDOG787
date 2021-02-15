@@ -1,0 +1,17 @@
+.SideBar {
+    background-color: transparent;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-items {
+    margin: 10px 0;
+}

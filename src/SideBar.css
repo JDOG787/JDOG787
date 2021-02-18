@@ -12,6 +12,14 @@
     align-items: center;
     justify-content:flex-start;
     padding-top: 20px;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    animation: popoutSidebar 450ms ease-in-out 1;
+    animation-name: popoutSidebar;
+    animation-duration: 450ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .sb-logo {
@@ -23,10 +31,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: red;
-    height: auto;
+    height: 100%;
 }
 
 .sb-icon {
     width: 50px;
+    margin: 15px 0;
+}
+
+@keyframes popoutSidebar {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }

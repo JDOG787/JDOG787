@@ -1,0 +1,49 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 130px;
+    background-color: var(--side-bar-bg);
+    box-shadow: 0 4px 7px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    padding-top: 20px;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    animation: popoutSidebar 450ms ease-in-out 1;
+    animation-name: popoutSidebar;
+    animation-duration: 450ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.sb-logo {
+    width: 80px;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.sb-icon {
+    width: 50px;
+    margin: 15px 0;
+}
+
+@keyframes popoutSidebar {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

@@ -7,7 +7,6 @@ const App: React.FC = () => {
   return (
     <div className="App">
         <SideBar/>
-        <div className="overlay"></div>
         <BrowserRouter>
           <Route exact path="/" component={() => <div>hi</div>}/>
         </BrowserRouter>

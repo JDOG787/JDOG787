@@ -1,49 +1,32 @@
-.SideBar {
-    background-color: transparent;
-    /* background-color: red; */
+.sidebar {
     position: absolute;
-    bottom: 0;
-    left: 0;
     top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 130px;
+    background-color: var(--side-bar-bg);
+    box-shadow: 0 4px 7px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    padding-top: 20px;
+}
+
+.sb-logo {
     width: 80px;
+}
+
+.sidebar-items {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 100;
+    background-color: red;
+    height: auto;
 }
 
-.SideBar:hover {
-    width: 200px;
-    background-color: #495057;
-    transition: all .3s ease-in-out;
-} 
-
-.SideBar:not(:hover) {
-    width: 80px;
-    transition: all .3s ease-in-out;
-} 
-
-.SideBar:hover + .overlay {
-    opacity: 0.7;
+.sb-icon {
+    width: 50px;
 }
-
-.sidebar-items {
-    margin: 10px 0;
-}
-
-.sidebar-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sidebar-label {
-    font-size: 0px;
-    transition-property: all;
-    transition-delay: .2s;
-}
-
-.SideBar:hover .sidebar-label {
-    font-size: 20px;
-} 

@@ -1,0 +1,73 @@
+.intro {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-40%, -45%);
+    z-index: 2;
+    animation-name: fadeInIntro;
+    animation-timing-function: ease-in-out;
+    animation-duration: 450ms;
+    animation-fill-mode: forwards;
+}
+
+.intro-text {
+    width: 340px;
+}
+
+.spinning-logo {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -55%);
+}
+
+.logo1 {
+    animation-name: spinLogo1;
+    animation-duration: 450ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.logo2 {
+    animation-name: spinLogo2;
+    animation-duration: 450ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes spinLogo1 {
+    from {
+        opacity: 0;
+        transform: rotate(-38deg);
+        transform-origin: center;
+    }
+    to {
+        transform-origin: center;
+        transform: rotate(38);
+        opacity: 1;
+    }
+}
+
+@keyframes spinLogo2 {
+    from {
+        opacity: 0;
+        transform: rotate(38deg);
+        transform-origin: center;
+    }
+    to {
+        transform-origin: center;
+        transform: rotate(-38);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInIntro {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

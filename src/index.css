@@ -13,4 +13,33 @@ body {
     font-family: Montserrat;
     background-color: var(--main-bg);
     color: white;
+    padding-left: 130px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    color: var(--secondary-text-color);
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.btn {
+    border: 2px solid var(--accent-color);
+    width: auto;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 30px;
+    font-size: 2rem;
+    transition: all .3s ease-in;
+}
+
+.btn:hover {
+    background-color: var(--accent-color);
 }

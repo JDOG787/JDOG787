@@ -6,6 +6,7 @@ import workIcon from "./icons/Star.svg";
 import skillsIcon from "./icons/Chart.svg";
 import profilesIcon from "./icons/Location.svg";
 import logo from "./logos/logo.svg";
+import SideBarItem from './SideBarItem';
 
 const SideBar: React.FC = () => {
     return(
@@ -14,11 +15,11 @@ const SideBar: React.FC = () => {
                 <img className="sb-logo" src={logo} alt="logo"/>
             </a>
             <div className="sidebar-items">
-                <img className="sb-icon" src={homeIcon} alt="home"/>
-                <img className="sb-icon" src={aboutIcon} alt="home"/>
-                <img className="sb-icon" src={workIcon} alt="home"/>
-                <img className="sb-icon" src={skillsIcon} alt="home"/>
-                <img className="sb-icon" src={profilesIcon} alt="home"/>
+                <SideBarItem name="Home" icon={homeIcon}/>
+                <SideBarItem name="About" icon={aboutIcon}/>
+                <SideBarItem name="Work" icon={workIcon}/>
+                <SideBarItem name="Skills" icon={skillsIcon}/>
+                <SideBarItem name="Profiles" icon={profilesIcon}/>
             </div>
         </div>
     )  

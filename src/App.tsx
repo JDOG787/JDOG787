@@ -4,11 +4,13 @@ import SideBar from './SideBar';
 import './App.css';
 import Home from './Home';
 import About from './About'
+import Cursor from './Cursor';
 
 const App: React.FC = () => {
   return (
     <div className="App">
         <SideBar/>
+        <Cursor/>
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home}/>

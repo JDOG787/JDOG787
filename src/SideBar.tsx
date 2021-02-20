@@ -15,11 +15,11 @@ const SideBar: React.FC = () => {
                 <img className="sb-logo" src={logo} alt="logo"/>
             </a>
             <div className="sidebar-items">
-                <SideBarItem name="Home" icon={homeIcon}/>
-                <SideBarItem name="About" icon={aboutIcon}/>
-                <SideBarItem name="Work" icon={workIcon}/>
-                <SideBarItem name="Skills" icon={skillsIcon}/>
-                <SideBarItem name="Profiles" icon={profilesIcon}/>
+                <SideBarItem href="/" name="Home" icon={homeIcon}/>
+                <SideBarItem href="/about" name="About" icon={aboutIcon}/>
+                <SideBarItem href="/work" name="Work" icon={workIcon}/>
+                <SideBarItem href="/skills" name="Skills" icon={skillsIcon}/>
+                <SideBarItem href="/profiles" name="Profiles" icon={profilesIcon}/>
             </div>
         </div>
     )  

@@ -33,11 +33,6 @@
     height: 100%;
 }
 
-.sb-icon {
-    width: 50px;
-    margin: 15px 0;
-}
-
 @keyframes popoutSidebar {
     from {
         transform: translateX(-100%);

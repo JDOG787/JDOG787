@@ -5,6 +5,7 @@
     --side-bar-bg: #131313;
     --accent-color: #335FD1;
     --secondary-text-color: #EDECEC;
+    --terminal-bg: #111111;
 }
 
 body {
@@ -15,7 +16,6 @@ body {
     color: white;
     padding-left: 130px;
 }
-
 h1 {
     font-size: 4rem;
     font-weight: 600;
@@ -39,12 +39,31 @@ p {
     padding: 5px 30px;
     font-size: 2rem;
     transition: all .3s ease-in;
+    margin-top: 20px;
 }
 
 .btn:hover {
     background-color: var(--accent-color);
 }
 
-.terminal {
-    color: var(--accent-color);
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
 }
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(114.69deg, #2E71D6 38.74%, #5000B6 83.94%);
+}
+
+/* .terminal {
+    color: var(--accent-color);
+} */

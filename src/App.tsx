@@ -1,15 +1,22 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import SideBar from './SideBar';
 import './App.css';
-import Home from "./Home";
+import Home from './Home';
+import About from './About'
+import Cursor from './Cursor';
 
 const App: React.FC = () => {
   return (
     <div className="App">
         <SideBar/>
+        <Cursor/>
         <BrowserRouter>
-          <Route exact path="/" component={Home}/>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/about" component={About}/>
+            <Route path="/" component={() => <div>404</div>}/>
+          </Switch>
         </BrowserRouter>
     </div>
   )

@@ -9,6 +9,8 @@
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.25);
     min-height: 50vh;
     cursor: text;
+    animation: fadeTerminal 450ms ease-in-out forwards;
+    position: relative;
 }
 
 .current-dir {
@@ -18,4 +20,21 @@
 
 .end-current-dir {
     color: var(--accent-color);
+}
+
+.terminal-text {
+    font-size: 1rem;
+    word-spacing: 5px;
+    color: var(--secondary-text-color);
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes fadeTerminal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

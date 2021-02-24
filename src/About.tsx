@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css';
 
 const About: React.FC = () => {
+    const [showing, setShowing] = useState(true);
+    const cmdLn = document.querySelector(".current-dir");
+
+    setInterval(() => {
+        if (showing) {
+
+        } else {
+            
+        }
+        setShowing(!showing)
+    })
+
     return (
         <div className="about">
             <div className="terminal">

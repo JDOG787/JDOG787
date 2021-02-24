@@ -8,7 +8,7 @@ const Home: React.FC = () => {
             <div className="intro">
                 {/* <h1 className="intro-header">JDOG787</h1> */}
                 <Headers mainHeader="JDOG787"/>
-                <p className="intro-text">
+                <p className="intro-text sub-header">
                     Aspiring Software Developer / Web Developer
                 </p>
                 <a href="/about">

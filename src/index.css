@@ -6,6 +6,7 @@
     --accent-color: #335FD1;
     --secondary-text-color: #EDECEC;
     --terminal-bg: #111111;
+    --typewriter-color: #8bff4d;
 }
 
 body {
@@ -63,6 +64,10 @@ h1 {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: linear-gradient(114.69deg, #2E71D6 38.74%, #5000B6 83.94%);
+}
+
+::selection {
+    background-color: #4d06b7;
 }
 
 @keyframes fadeIn {

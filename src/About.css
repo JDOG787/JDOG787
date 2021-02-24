@@ -2,3 +2,8 @@
     padding: 10vw;
     animation: fadeIn 450ms ease-in-out forwards;
 }
+
+.about-info {
+    font-size: 1.8rem;
+    margin-top: 40px;
+}

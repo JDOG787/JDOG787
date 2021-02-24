@@ -1,13 +1,14 @@
 import React from 'react';
 import "./Home.css";
-import logo from './logos/logo.svg'
+import Headers from './Header';
 
 const Home: React.FC = () => {
     return (
         <div className="home">
             <div className="intro">
-                <h1 className="intro-header">JDOG787</h1>
-                <p className="intro-text">
+                {/* <h1 className="intro-header">JDOG787</h1> */}
+                <Headers mainHeader="JDOG787"/>
+                <p className="intro-text sub-header">
                     Aspiring Software Developer / Web Developer
                 </p>
                 <a href="/about">

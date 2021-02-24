@@ -3,6 +3,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: fadeIn 450ms timing-function delay iteration-count direction fill-mode;
 }
 
 .not-found > h1 {

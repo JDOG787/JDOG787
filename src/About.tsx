@@ -6,7 +6,11 @@ const About: React.FC = () => {
     return (
         <div className="about">
             <Header mainHeader="About me"/>
-            <p>Developer / Nerd / Programmer / Computer Geek</p>
+            <p className="sub-header">Developer / Nerd / Programmer / Computer Geek</p>
+
+            <div className="about-info">
+                    
+            </div>
         </div>
     )
 }

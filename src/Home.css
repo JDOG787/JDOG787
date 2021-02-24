@@ -4,7 +4,7 @@
     left: 40%;
     transform: translate(-40%, -45%);
     z-index: 2;
-    animation-name: fadeInIntro;
+    animation-name: fadeIn;
     animation-timing-function: ease-in-out;
     animation-duration: 450ms;
     animation-fill-mode: forwards;
@@ -59,15 +59,6 @@
     to {
         transform-origin: center;
         transform: rotate(-38);
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInIntro {
-    from {
-        opacity: 0;
-    }
-    to {
         opacity: 1;
     }
 }

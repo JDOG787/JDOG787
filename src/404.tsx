@@ -4,13 +4,16 @@ import './404.css'
 const NotFound: React.FC = () => {
     return (
         <div className="not-found">
-            <h1>404 - Not Found</h1>
-            <pre><code className="not-found-code">
-                if (page.notFound()) {
-                    return 404;
-                }
-            </code>
-            </pre>
+            <h1><em>404 - Not Found</em></h1>
+            <div className="not-found-code">
+                <pre>
+                    {`
+                    if (page.notFound()) {
+                        return 404;
+                    }
+                    `}
+                </pre>
+            </div>
         </div>
     )
 }

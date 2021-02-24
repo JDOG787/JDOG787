@@ -14,6 +14,9 @@ const NotFound: React.FC = () => {
                     `}
                 </pre>
             </div>
+            <a href="/">
+                <div className="btn">Go Home</div>
+            </a>
         </div>
     )
 }

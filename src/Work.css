@@ -1,0 +1,22 @@
+.work {
+    padding: 10vw;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.project {
+    background-color: red;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: -4px 4px 10px 8px  rgba(0, 0, 0, 0.25);
+    height: 50vh;
+    width: 50vh;
+}
+
+.project-info {
+    font-size: 1.8rem;
+
+}

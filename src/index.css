@@ -31,6 +31,8 @@ h1 {
     font-weight: 300;
     font-size: 1.6rem;
     margin: 20px 0;
+    animation: fadeIn 450ms ease-in-out 700ms forwards;
+    opacity: 0;
 }
 
 .btn {
@@ -43,6 +45,8 @@ h1 {
     font-size: 2rem;
     transition: all .3s ease-in;
     margin-top: 20px;
+    animation: fadeIn 450ms ease-in-out 700ms forwards;
+    opacity: 0;
 }
 
 .btn:hover {

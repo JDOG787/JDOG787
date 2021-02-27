@@ -4,10 +4,11 @@
 
 .projects {
     margin-top: 30px;
+    animation: fadeIn 450ms ease-in-out 1400ms forwards;
+    opacity: 0;
 }
 
 .project {
-    /* background-color: red; */
     padding: 20px;
     margin-top: 30px;
     border-radius: 8px;
@@ -18,5 +19,4 @@
 
 .project-info {
     font-size: 1.8rem;
-
 }

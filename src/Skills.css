@@ -5,6 +5,8 @@
 .bars {
     margin-top: 3rem;
     padding-left: 20px;
+    animation: fadeIn 450ms ease-in-out 1400ms forwards;
+    opacity: 0;
 }
 
 .bar-header {
@@ -26,11 +28,15 @@
 }
 
 .frontend {
-    width: 80%;
+    width: 75%;
+}
+
+.backend {
+    width: 65%;
 }
 
 .react {
-    width: 60%;
+    width: 65%;
 }
 
 .design {
@@ -52,7 +58,7 @@
     height: 20px;
     border-radius: 10px;
     width: 0%;
-    animation: fillBar 450ms ease-in-out forwards;
+    animation: fillBar 700ms 1400ms ease-in-out forwards;
 }
 
 @keyframes fillBar {

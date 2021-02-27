@@ -1,0 +1,65 @@
+.skills {
+    padding: 10vw;
+}
+
+.bars {
+    margin-top: 3rem;
+    padding-left: 20px;
+}
+
+.bar-header {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
+.label {
+    font-size: 1.2rem;
+    color: var(--secondary-text-color);
+    margin-top: 30px;
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background-color: var(--side-bar-bg);
+    border-radius: 10px;
+}
+
+.frontend {
+    width: 80%;
+}
+
+.react {
+    width: 60%;
+}
+
+.design {
+    width: 70%;
+}
+
+.mongodb {
+    width: 80%;
+}
+
+.basic-web {
+    width: 70%;
+}
+
+.inner-bar::before {
+    content: '';
+    display: block;
+    background: var(--bar-gradient);
+    height: 20px;
+    border-radius: 10px;
+    width: 0%;
+    animation: fillBar 450ms ease-in-out forwards;
+}
+
+@keyframes fillBar {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}

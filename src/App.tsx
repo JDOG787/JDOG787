@@ -7,6 +7,7 @@ import About from './About'
 import Cursor from './Cursor';
 import NotFound from './404'
 import Work from './Work';
+import Skills from './Skills';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
             <Route exact path="/work" component={Work}/>
+            <Route exact path="/skills" component={Skills}/>
             <Route path="/" component={NotFound}/>
           </Switch>
         </BrowserRouter>

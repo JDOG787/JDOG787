@@ -1,3 +1,7 @@
+.header {
+  display: inline-block;
+}
+
 .header h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid var(--typewriter-color); /* The typwriter cursor */
@@ -5,7 +9,7 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-      typing 1.5s steps(20, end),
+      typing 1s steps(10, end),
       blink-caret .75s step-end infinite;
 }
   

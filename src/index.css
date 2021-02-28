@@ -7,6 +7,11 @@
     --secondary-text-color: #EDECEC;
     --terminal-bg: #111111;
     --typewriter-color: #8bff4d;
+    --gradient: linear-gradient(114.69deg, #2E71D6 38.74%, #5000B6 83.94%)
+}
+
+html {
+    cursor: none;
 }
 
 body {
@@ -30,6 +35,8 @@ h1 {
     font-weight: 300;
     font-size: 1.6rem;
     margin: 20px 0;
+    animation: fadeIn 450ms ease-in-out 700ms forwards;
+    opacity: 0;
 }
 
 .btn {
@@ -42,28 +49,29 @@ h1 {
     font-size: 2rem;
     transition: all .3s ease-in;
     margin-top: 20px;
+    animation: fadeIn 450ms ease-in-out 700ms forwards;
+    opacity: 0;
 }
 
 .btn:hover {
     background-color: var(--accent-color);
 }
 
-::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+::-webkit-scrollbar{
+	width: 12px;
+	background-color: #333;
 }
 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+	background-color: #333;
 	border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: linear-gradient(114.69deg, #2E71D6 38.74%, #5000B6 83.94%);
+    background: var(--gradient);
 }
 
 ::selection {
@@ -76,5 +84,11 @@ h1 {
     }
     to {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    body {
+        padding: 0;
     }
 }

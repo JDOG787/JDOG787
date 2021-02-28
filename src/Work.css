@@ -1,0 +1,30 @@
+.work {
+    padding: 10vw;
+}
+
+.projects {
+    margin-top: 30px;
+    animation: fadeIn 450ms ease-in-out 1400ms forwards;
+    opacity: 0;
+    display: grid;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.project {
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: -7px 7px 20px 15px  rgba(0, 0, 0, 0.25);
+    height: 50vh;
+    width: 50vh;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+}
+
+.project-info {
+    font-size: 1.8rem;
+}

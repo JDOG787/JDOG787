@@ -23,7 +23,7 @@ const Skills: React.FC = () => {
                 <div className="bar"><div className="inner-bar design"></div></div>
                 <p className="label">Mongodb</p>
                 <div className="bar"><div className="inner-bar mongodb"></div></div>
-                <p className="label">Html / Css / Js</p>
+                <p className="label">HTML / CSS / JS</p>
                 <div className="bar"><div className="inner-bar basic-web"></div></div>
             </div>
         </div>

@@ -8,11 +8,13 @@ import Cursor from './Cursor';
 import NotFound from './404'
 import Work from './Work';
 import Skills from './Skills';
+import MobileNav from './MobileNav';
 
 const App: React.FC = () => {
   return (
     <div className="App">
         <SideBar/>
+        <MobileNav/>
         <Cursor/>
         <BrowserRouter>
           <Switch>

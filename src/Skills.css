@@ -54,7 +54,7 @@
 .inner-bar::before {
     content: '';
     display: block;
-    background: var(--bar-gradient);
+    background: var(--gradient);
     height: 20px;
     border-radius: 10px;
     width: 0%;

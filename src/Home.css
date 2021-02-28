@@ -62,3 +62,32 @@
         opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 880px) {
+    .spinning-logo {
+        left: 75%;
+        top: 50%;
+        transform: translate(-65%, -50%);
+    }
+
+    .intro {
+        top: 45%;
+        left: 55%;
+        transform: translate(-55%, -45%);
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .spinning-logo {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .intro {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

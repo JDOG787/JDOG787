@@ -8,3 +8,9 @@
     animation: fadeIn 450ms ease-in-out 1400ms forwards;
     opacity: 0;
 }
+
+@media screen and (max-width: 425px) {
+    .about-info {
+        font-size: 1.3rem;
+    }
+}

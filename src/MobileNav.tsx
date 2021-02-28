@@ -5,6 +5,7 @@ const MobileNav: React.FC = () => {
 
     function handelClick() {
         document.querySelector(".nav-links")?.classList.toggle("open")
+        document.body.classList.toggle("no-scoll")
     }
 
     return (

@@ -57,6 +57,10 @@ h1 {
     background-color: var(--accent-color);
 }
 
+.no-scoll {
+    overflow: hidden;
+}
+
 ::-webkit-scrollbar{
 	width: 12px;
 	background-color: #333;
@@ -90,5 +94,15 @@ h1 {
 @media screen and (max-width: 670px) {
     body {
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    .sub-header {
+        font-size: 1.2rem;
     }
 }

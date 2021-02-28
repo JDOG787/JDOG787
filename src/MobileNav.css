@@ -34,7 +34,7 @@
 }
 
 .nav-links {
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
     background: var(--gradient);
@@ -42,6 +42,7 @@
     clip-path: circle(100px at -20% -20%);
     -webkit-clip-path: circle(100px at -20% -20%);
     transition: all 1s ease-in-out;
+    scroll-behavior: none;
 }
 
 .nav-links.open {
@@ -54,7 +55,7 @@
     list-style: none;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 100%;
 }
 

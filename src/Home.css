@@ -91,3 +91,21 @@
         transform: translate(-50%, -50%);
     }
 }
+
+@media screen and (max-width: 425px) {
+    .intro {
+        top: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .intro-text {
+        width: 100%;
+    }
+
+    .spinning-logo {
+        top: 60%;
+        left: 50%;
+        width: 100vw;
+        transform: translate(-50%, -55%);
+    }
+}

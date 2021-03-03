@@ -12,15 +12,6 @@
     max-width: 1000px;
 }
 
-.project {
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: -7px 7px 20px 15px  rgba(0, 0, 0, 0.25);
-    height: 400px;
-    cursor: pointer;
-    color: var(--secondary-text-color);
-}
-
 .project-info {
     font-size: 1.8rem;
 }

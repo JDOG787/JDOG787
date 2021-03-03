@@ -1,0 +1,8 @@
+.project-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -7px 7px 20px 15px  rgba(0, 0, 0, 0.25);
+    height: 400px;
+    cursor: none;;
+    color: var(--secondary-text-color);
+}

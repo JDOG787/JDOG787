@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import ProjectCard from './ProjectCard';
 import './Work.css';
 
 const Work: React.FC = () => {
@@ -8,30 +9,10 @@ const Work: React.FC = () => {
             <Header mainHeader="My work"/>
             <p className="sub-header">Check out some of my projects</p>
             <div className="projects">
-                <div className="project">
-                    <h2>Name of project</h2>
-                    <p className="project-info">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore est nam?
-                    </p>
-                </div>
-                <div className="project">
-                    <h2>Name of project</h2>
-                    <p className="project-info">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore est nam?
-                    </p>
-                </div>
-                <div className="project">
-                    <h2>Name of project</h2>
-                    <p className="project-info">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore est nam?
-                    </p>
-                </div>
-                <div className="project">
-                    <h2>Name of project</h2>
-                    <p className="project-info">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore est nam?
-                    </p>
-                </div>
+                <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
             </div>
         </div>
     )

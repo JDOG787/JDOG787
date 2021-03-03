@@ -9,7 +9,7 @@ interface Props {
 
 const SideBarItem: React.FC<Props> = (props) => {
     return(
-        <div className="sidebar-item">
+        <div className="sidebar-item hover-item">
             <a href={props.href}>
                 <img className="sb-icon" src={props.icon} alt={props.name}/>
                 {/* <div className="sb-text">{props.name}</div> */}

@@ -10,7 +10,7 @@
     --gradient: linear-gradient(114.69deg, #2E71D6 38.74%, #5000B6 83.94%)
 }
 
-html {
+html, * {
     cursor: none;
 }
 
@@ -60,6 +60,8 @@ h1 {
 .no-scoll {
     overflow: hidden;
 }
+
+
 
 ::-webkit-scrollbar{
 	width: 12px;

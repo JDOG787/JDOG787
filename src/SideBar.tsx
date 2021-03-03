@@ -12,7 +12,7 @@ const SideBar: React.FC = () => {
     return(
         <div className="sidebar">
             <a href="/">
-                <img className="sb-logo" src={logo} alt="logo"/>
+                <img className="sb-logo hover-item" src={logo} alt="logo"/>
             </a>
             <div className="sidebar-items">
                 <SideBarItem href="/" name="Home" icon={homeIcon}/>

@@ -9,7 +9,7 @@
 }
 
 .menu {
-    cursor: pointer;
+    cursor: none;
     position: absolute;
     top: 2%;
     left: 3%;

@@ -12,7 +12,7 @@ const Home: React.FC = () => {
                     Aspiring Software Developer / Web Developer
                 </p>
                 <a href="/about">
-                    <div className="btn">About</div>
+                    <div className="btn hover-item">About</div>
                 </a>
             </div>
 

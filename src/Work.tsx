@@ -11,8 +11,6 @@ const Work: React.FC = () => {
             <div className="projects">
                 <ProjectCard/>
                 <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
             </div>
         </div>
     )

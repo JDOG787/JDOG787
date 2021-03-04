@@ -1,8 +1,102 @@
 .project-card {
-    padding: 20px;
-    border-radius: 8px;
     box-shadow: -7px 7px 20px 15px  rgba(0, 0, 0, 0.25);
     height: 400px;
-    cursor: none;;
+    cursor: none;
     color: var(--secondary-text-color);
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    padding: 20px;
+}
+
+.project-card span {
+    transition: .5s;
+    opacity: 0;
+}
+
+.project-card:hover .card-line {
+    opacity: 1;
+}
+
+.project-card span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, transparent, var(--accent-color));
+    animation: cardAnimation 2s linear infinite;
+
+}
+
+@keyframes cardAnimation {
+    0% { 
+        transform: translateX(-100%);
+    }
+    100% { 
+        transform: translateX(100%);
+    }
+}
+
+.project-card span:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(to top, transparent, var(--accent-color));
+    animation: cardAnimation2 2s linear infinite;
+    /* animation-delay: 1s; */
+}
+
+@keyframes cardAnimation2 {
+    0% { 
+        transform: translateY(100%);
+    }
+    100% { 
+        transform: translateY(-100%);
+    }
+}
+
+.project-card span:nth-child(3) {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, var(--accent-color));
+    animation: cardAnimation3 2s linear infinite;
+    /* animation-delay: 2s; */
+}
+
+@keyframes cardAnimation3 {
+    0% { 
+        transform: translateX(100%);
+    }
+    100% { 
+        transform: translateX(-100%);
+    }
+}
+
+.project-card span:nth-child(4) {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(to bottom, transparent, var(--accent-color));
+    animation: cardAnimation4 2s linear infinite;
+    /* animation-delay: 3s; */
+}
+
+@keyframes cardAnimation4 {
+    0% { 
+        transform: translateY(-100%);
+    }
+    100% { 
+        transform: translateY(100%);
+    }
 }

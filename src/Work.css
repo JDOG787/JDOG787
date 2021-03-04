@@ -6,14 +6,12 @@
     margin-top: 50px;
     animation: fadeIn 450ms ease-in-out 1400ms forwards;
     opacity: 0;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10%;
+    grid-gap: 10%; */
     max-width: 1000px;
-}
-
-.project-info {
-    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1020px) {

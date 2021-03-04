@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import Headers from './Header';
+import Btn from './Btn';
 
 const Home: React.FC = () => {
     return (
@@ -11,9 +12,7 @@ const Home: React.FC = () => {
                 <p className="intro-text sub-header">
                     Aspiring Software Developer / Web Developer
                 </p>
-                <a href="/about">
-                    <div className="btn hover-item">About</div>
-                </a>
+                <Btn text="About" href="/about"/>
             </div>
 
             <svg className="spinning-logo" width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">

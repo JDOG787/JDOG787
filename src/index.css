@@ -39,28 +39,9 @@ h1 {
     opacity: 0;
 }
 
-.btn {
-    border: 2px solid var(--accent-color);
-    width: auto;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 5px 30px;
-    font-size: 2rem;
-    transition: all .3s ease-in;
-    margin-top: 20px;
-    animation: fadeIn 450ms ease-in-out 700ms forwards;
-    opacity: 0;
-}
-
-.btn:hover {
-    background-color: var(--accent-color);
-}
-
 .no-scoll {
     overflow: hidden;
 }
-
 
 
 ::-webkit-scrollbar{

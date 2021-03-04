@@ -1,5 +1,6 @@
 import React from 'react';
 import './404.css'
+import Btn from './Btn';
 
 const NotFound: React.FC = () => {
     return (
@@ -14,9 +15,7 @@ const NotFound: React.FC = () => {
                     `}
                 </pre>
             </div>
-            <a href="/">
-                <div className="btn hover-item">Go Home</div>
-            </a>
+            <Btn text="Go Home" href="/"/>
         </div>
     )
 }

@@ -1,11 +1,12 @@
 .project-card {
-    box-shadow: -7px 7px 20px 15px  rgba(0, 0, 0, 0.25);
+    box-shadow: -5px 5px 20px 10px  rgba(0, 0, 0, 0.25);
     height: 400px;
     cursor: none;
     color: var(--secondary-text-color);
     margin: 20px;
     position: relative;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .content {
@@ -28,7 +29,7 @@
     height: 3px;
     width: 100%;
     background: linear-gradient(to right, transparent, var(--accent-color));
-    animation: cardAnimation 2s linear infinite;
+    animation: cardAnimation 2s ease-in-out infinite;
 
 }
 
@@ -48,7 +49,7 @@
     height: 100%;
     width: 3px;
     background: linear-gradient(to top, transparent, var(--accent-color));
-    animation: cardAnimation2 2s linear infinite;
+    animation: cardAnimation2 2s ease-in-out infinite;
     /* animation-delay: 1s; */
 }
 
@@ -68,7 +69,7 @@
     width: 100%;
     height: 3px;
     background: linear-gradient(to left, transparent, var(--accent-color));
-    animation: cardAnimation3 2s linear infinite;
+    animation: cardAnimation3 2s ease-in-out infinite;
     /* animation-delay: 2s; */
 }
 
@@ -88,7 +89,7 @@
     height: 100%;
     width: 3px;
     background: linear-gradient(to bottom, transparent, var(--accent-color));
-    animation: cardAnimation4 2s linear infinite;
+    animation: cardAnimation4 2s ease-in-out infinite;
     /* animation-delay: 3s; */
 }
 

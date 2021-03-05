@@ -7,6 +7,8 @@
     position: relative;
     overflow: hidden;
     border-radius: 4px;
+    opacity: 0;
+    transition: 1.5s ease-in-out;
 }
 
 .content {
@@ -29,7 +31,7 @@
     height: 3px;
     width: 100%;
     background: linear-gradient(to right, transparent, var(--accent-color));
-    animation: cardAnimation 2s ease-in-out infinite;
+    animation: cardAnimation 1.5s ease-in-out infinite;
 
 }
 
@@ -49,7 +51,7 @@
     height: 100%;
     width: 3px;
     background: linear-gradient(to top, transparent, var(--accent-color));
-    animation: cardAnimation2 2s ease-in-out infinite;
+    animation: cardAnimation2 1.5s ease-in-out infinite;
     /* animation-delay: 1s; */
 }
 
@@ -69,8 +71,8 @@
     width: 100%;
     height: 3px;
     background: linear-gradient(to left, transparent, var(--accent-color));
-    animation: cardAnimation3 2s ease-in-out infinite;
-    /* animation-delay: 2s; */
+    animation: cardAnimation3 1.5s ease-in-out infinite;
+    /* animation-delay: 1.5s; */
 }
 
 @keyframes cardAnimation3 {
@@ -89,7 +91,7 @@
     height: 100%;
     width: 3px;
     background: linear-gradient(to bottom, transparent, var(--accent-color));
-    animation: cardAnimation4 2s ease-in-out infinite;
+    animation: cardAnimation4 1.5s ease-in-out infinite;
     /* animation-delay: 3s; */
 }
 
@@ -100,4 +102,8 @@
     100% { 
         transform: translateY(100%);
     }
+}
+
+.animate {
+    opacity: 1;
 }

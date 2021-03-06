@@ -9,6 +9,7 @@ import NotFound from './404'
 import Work from './Work';
 import Skills from './Skills';
 import MobileNav from './MobileNav';
+import Profiles from './Profiles';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
             <Route exact path="/about" component={About}/>
             <Route exact path="/work" component={Work}/>
             <Route exact path="/skills" component={Skills}/>
+            <Route exact path="/profiles" component={Profiles}/>
             <Route path="/" component={NotFound}/>
           </Switch>
         </BrowserRouter>

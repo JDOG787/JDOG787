@@ -13,6 +13,9 @@ const Work: React.FC = () => {
                 <ProjectCard/>
                 <ProjectCard/>
                 <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
             </div>
         </div>
     )

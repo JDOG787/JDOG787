@@ -13,7 +13,8 @@ const Cursor: React.FC = () => {
     //     }, 500)
     // })
 
-    setTimeout(() => {
+
+    window.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(".hover-item").forEach(ele => {
             ele.addEventListener("mouseover", () => {
                 document.querySelector(".cursor")?.classList.add("hover-cursor")
@@ -23,8 +24,7 @@ const Cursor: React.FC = () => {
                 document.querySelector(".cursor")?.classList.remove("hover-cursor")
             })
         })
-    }, 1000)
-
+    });
 
 
 

@@ -1,3 +1,10 @@
+/* Make this position neater */
+.home {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
 .intro {
     position: absolute;
     top: 45%;
@@ -13,12 +20,9 @@
 .intro-text {
     width: 340px;
 }
-
+/* user margin auto instead of position absolute */
 .spinning-logo {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -55%);
+    margin: auto;
 }
 
 .logo1 {

@@ -154,10 +154,64 @@
 .content p {
     font-size: 1.5rem;
     width: 70%;
+    color: var(--secondary-text-color);
 }
 
 .btn-container {
     position: absolute;
     bottom: 40px;
     left: 40px;
+    display: flex;
+}
+
+.card-btn {
+    background-color: #2a2a2a;
+    padding: 10px 17px;
+    margin-right: 20px;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.card-btn:hover {
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    transform: translateY(3px);
+}
+
+.card-btn a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: medium;
+}
+
+@media screen and (max-width: 515px) {
+    .content h2 {
+        font-size: 1.8rem;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .project-card:nth-child(1n)::before {
+        width: 200%;
+    }
+
+    .project-card:nth-child(2n)::before {
+        width: 60%;
+    }
+
+    .project-card:nth-child(3n)::before {
+        width: 100%;
+    }
+
+    .card-btn {
+        margin-right: 10px;
+    }
+
+    .btn-container {
+        bottom: 20px;
+        left: 20px;
+    }
 }

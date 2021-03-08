@@ -6,8 +6,10 @@ import './Work.css';
 const Work: React.FC = () => {
     return (
         <div className="work">
-            <Header mainHeader="My work"/>
-            <p className="sub-header">Check out some of my projects</p>
+            <div className="work-headers">
+                <Header mainHeader="My work"/>
+                <p className="sub-header">Check out some of my projects</p>
+            </div>
             <div className="projects">
                 <ProjectCard/>
                 <ProjectCard/>

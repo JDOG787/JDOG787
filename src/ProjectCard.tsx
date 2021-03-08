@@ -1,28 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Btn from "./Btn";
 import './ProjectCard.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const ProjectCard: React.FC = () => {
-    
-    // window.addEventListener("DOMContentLoaded", () => {
-    //     const fadeIn = document.querySelectorAll(".fade-one")!;
-
-    //     const observer = new IntersectionObserver(entries => {
-    //         console.log(entries)
-    //         if (entries[0].isIntersecting) {
-    //             entries[0].target.classList.add("animate")
-    //         } else {
-    //             entries[0].target.classList.remove("animate")
-    //         }
-    //     })
-
-    //     fadeIn.forEach(ele => {
-    //         observer.observe(ele)
-    //     })
-    // });
+    useEffect(() => {
+        Aos.init({ duration: 450 });
+    }, [])
 
     return (
-        <div className="project-card fade-one">
+        <div className="project-card" data-aos="fade-up">
             <span className="card-line"></span>
             <span className="card-line"></span>
             <span className="card-line"></span>
@@ -33,7 +21,12 @@ const ProjectCard: React.FC = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore est nam?
                 </p>
                 <div className="btn-container">
-                    <Btn href="/" text="Visit"/>
+                    <div className="card-btn hover-item">
+                        <a href="/">Github</a>
+                    </div>
+                    <div className="card-btn hover-item">
+                        <a href="/">Website</a>
+                    </div>
                 </div>
             </div>
         </div>

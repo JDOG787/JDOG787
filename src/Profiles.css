@@ -1,3 +1,142 @@
 .profiles {
- padding: 10vw;
+    padding: 10vw;
+}
+
+.profile-icons {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    opacity: 0;
+    animation: fadeIn 459ms ease-in-out 1s forwards;
+}
+
+.profile-icons ul {
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+    transform: rotate(-25deg) skew(25deg);
+}
+
+.profile-icons ul li {
+    list-style: none;
+    position: relative;
+    margin: 0 10px;
+    height: 80px;
+    width: 80px;
+}
+
+.profile-icons ul li::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #2a2a2a;
+    transform-origin: top;
+    transform: skew(-41deg);
+}
+
+.profile-icons ul li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 9px;
+    height: 100%;
+    background-color: #2a2a2a;
+    transform-origin: right;
+    transform: skewY(-49deg);
+}
+
+.profile-icons ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.profile-icons ul li:hover span {
+    z-index: 1000;
+    transition: .2s;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.profile-icons ul li:hover .profile-logo {
+    fill: var(--secondary-text-color);
+    transition: .2s;
+}
+
+.profile-icons ul li .profile-logo {
+    margin: 10px;
+}
+
+.profile-icons ul li:hover span:nth-child(5) {
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+.profile-icons ul li:hover span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: .8;
+}
+
+.profile-icons ul li:hover span:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: .6;
+}
+
+.profile-icons ul li:hover span:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: .4;
+}
+
+.profile-icons ul li:hover span:nth-child(1) {
+    transform: translate(0);
+    opacity: .2;
+}
+
+.profile-icons ul li:not(:hover) span {
+    transform: translate(0);
+    transition: .3s;
+}
+
+.profile-icons ul li:nth-child(1):hover span {
+    background-color: #181D2D;
+}
+
+.profile-icons ul li:nth-child(2):hover span {
+    background-color: #4AAB9D;
+}
+
+.profile-icons ul li:nth-child(3):hover span {
+    background-color: #3E8737;
+}
+
+.profile-icons ul li:nth-child(4):hover span {
+    background-color: #7289DA;
+}
+
+
+@media screen and (max-width: 670px) {
+    .profile-icons {
+        justify-content: center;
+    }
+
+    .profile-icons ul li {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .profile-icons ul li {
+        height: 40px;
+        width: 40px;
+    }
 }

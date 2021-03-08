@@ -1,20 +1,19 @@
-.work {
+.work-headers {
     padding: 10vw;
+    padding-bottom: 0;
 }
 
 .projects {
     margin-top: 50px;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10%; */
     max-width: 1000px;
     display: flex;
     flex-direction: column;
+    padding: 10vw;
+    padding-top: 0;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 515px) {
     .projects {
-        grid-template-columns: 1fr;
-        grid-gap: 5%;
+        padding: 0;
     }
 }

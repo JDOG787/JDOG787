@@ -10,6 +10,7 @@
     "@types/node": "^12.20.0",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "aos": "^2.3.4",
     "fs": "0.0.1-security",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@types/aos": "^3.0.3",
     "@types/react-router-dom": "^5.1.7"
   }
 }

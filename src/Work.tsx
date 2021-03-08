@@ -11,13 +11,11 @@ const Work: React.FC = () => {
                 <p className="sub-header">Check out some of my projects</p>
             </div>
             <div className="projects">
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
+                <ProjectCard name="Project Name" desc="this is some text..." website="/"/>
+                <ProjectCard name="Project Name" desc="this is some text..." website="/"/>
+                <ProjectCard name="Project Name" desc="this is some text..." website="/"/>
+                <ProjectCard name="Project Name" desc="this is some text..." website="/"/>
+                <ProjectCard name="Project Name" desc="this is some text..." website="/"/>
             </div>
         </div>
     )

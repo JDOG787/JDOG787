@@ -12,7 +12,6 @@ const SideBarItem: React.FC<Props> = (props) => {
         <div className="sidebar-item hover-item">
             <a href={props.href}>
                 <img className="sb-icon" src={props.icon} alt={props.name}/>
-                {/* <div className="sb-text">{props.name}</div> */}
             </a>
         </div>
     )

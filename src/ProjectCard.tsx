@@ -4,7 +4,14 @@ import './ProjectCard.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-const ProjectCard: React.FC = () => {
+interface Props {
+    name: string;
+    desc: string;
+    github?: string;
+    website?: string;
+}
+
+const ProjectCard: React.FC<Props> = (props) => {
     useEffect(() => {
         Aos.init({ duration: 450 });
     }, [])
@@ -16,17 +23,34 @@ const ProjectCard: React.FC = () => {
             <span className="card-line"></span>
             <span className="card-line"></span>
             <div className="content">
-                <h2>Name of project</h2>
+                <h2>{props.name}</h2>
                 <p className="project-info">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore est nam?
+                    {props.desc}
                 </p>
                 <div className="btn-container">
-                    <div className="card-btn hover-item">
-                        <a href="/">Github</a>
-                    </div>
-                    <div className="card-btn hover-item">
-                        <a href="/">Website</a>
-                    </div>
+                    {
+                        props.github ?
+                        
+                        <div className="card-btn hover-item">
+                            <a href={props.github}>Github</a>
+                        </div>
+
+                        :
+
+                        ""
+                    }
+
+                    {
+                        props.website ?
+
+                        <div className="card-btn hover-item">
+                            <a href={props.website}>Website</a>
+                        </div>
+
+                        :
+
+                        ""
+                    }
                 </div>
             </div>
         </div>

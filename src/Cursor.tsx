@@ -4,7 +4,7 @@ import './Cursor.css';
 const Cursor: React.FC = () => {
     // removed the translate as not needed anymore once i fixed up the width and height
     document.addEventListener("mousemove", (e) => {
-        document.querySelector(".cursor")!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX - 1.25}px;`)
+        document.querySelector(".cursor")!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX - 1.25}px; transform: translate(-50%, -50%);`)
     });
 
     window.onblur = () => {
@@ -25,20 +25,10 @@ const Cursor: React.FC = () => {
             })
         })
     });
-    // Handle the on tab leave and come back works well on chrome
-    window.onblur = () => {
-        (document.querySelector(".cursor") as HTMLElement).style.display = 'none';
-    }
-    window.onfocus = () => {
-        (document.querySelector(".cursor") as HTMLElement).style.display = 'block';
-    }
-
 
 
     return (
-        <div className="cusorContainer">
-            <div className="cursor"></div>
-        </div>
+        <div className="cursor"></div>
     )
 }
 

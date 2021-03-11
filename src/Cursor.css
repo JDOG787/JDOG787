@@ -1,14 +1,3 @@
-/* A container to stop the overflow */
-.cusorContainer {
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    pointer-events: none;
-}
 .cursor {
     width: 2rem;
     height: 2rem;
@@ -27,10 +16,6 @@
     height: 3.5rem;
 }
 
-/* 
-    Dissable the transition for users who prefer reduced motion
-    https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion 
-*/
 @media (prefers-reduced-motion: reduce) {
     .cursor {
         transition-duration: 0.1ms;
@@ -43,12 +28,5 @@
 
     html, * {
         cursor: default !important;
-    }
-}
-
-
-@media (prefers-reduced-motion: reduce) {
-    .cursor {
-        transition-duration: 0.1ms;
     }
 }

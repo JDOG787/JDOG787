@@ -7,13 +7,12 @@ const Cursor: React.FC = () => {
         document.querySelector(".cursor")!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX - 1.25}px;`)
     });
 
-    // document.addEventListener("click", () => {
-    //     document.querySelector(".cursor")?.classList.add("expand")
-    //     setTimeout(() => {  
-    //         document.querySelector(".cursor")?.classList.remove("expand")
-    //     }, 500)
-    // })
-
+    window.onblur = () => {
+        (document.querySelector(".cursor") as HTMLElement).style.display = 'none';
+    }
+    window.onfocus = () => {
+        (document.querySelector(".cursor") as HTMLElement).style.display = 'block';
+    }
 
     window.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(".hover-item").forEach(ele => {

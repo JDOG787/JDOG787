@@ -19,12 +19,12 @@
     transition-timing-function: ease-out;
     pointer-events: none;
     z-index: 3;
+    opacity: .5;
 }
 
 .hover-cursor {
     width: 3.5rem;
     height: 3.5rem;
-    opacity: .5;
 }
 
 /* 
@@ -43,5 +43,12 @@
 
     html, * {
         cursor: default !important;
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .cursor {
+        transition-duration: 0.1ms;
     }
 }

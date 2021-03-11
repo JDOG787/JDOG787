@@ -1,3 +1,10 @@
+.home {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .intro {
     position: absolute;
     top: 45%;
@@ -15,10 +22,7 @@
 }
 
 .spinning-logo {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -55%);
+    margin: auto;
 }
 
 .logo1 {
@@ -65,11 +69,11 @@
 
 
 @media screen and (max-width: 880px) {
-    .spinning-logo {
+    /* .spinning-logo {
         left: 75%;
         top: 50%;
         transform: translate(-65%, -50%);
-    }
+    } */
 
     .intro {
         top: 45%;
@@ -79,12 +83,6 @@
 }
 
 @media screen and (max-width: 670px) {
-    .spinning-logo {
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
-
     .intro {
         top: 50%;
         left: 50%;
@@ -100,12 +98,5 @@
 
     .intro-text {
         width: 100%;
-    }
-
-    .spinning-logo {
-        top: 60%;
-        left: 50%;
-        width: 100vw;
-        transform: translate(-50%, -55%);
     }
 }

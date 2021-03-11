@@ -10,8 +10,13 @@
     --gradient: linear-gradient(114.69deg, #2E71D6 38.74%, #5000B6 83.94%)
 }
 
-html, * {
-    cursor: none;
+html, *, body {
+    cursor: none !important;
+}
+
+html, #root, .App, body {
+    height: 100%;
+    min-height: max-content;
 }
 
 body {

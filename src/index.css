@@ -26,6 +26,7 @@ body {
     background-color: var(--main-bg);
     color: white;
     padding-left: 130px;
+    overflow-x: hidden;
 }
 /* set all the sizes so they are correct */
 html, #root, .App, body {

@@ -15,4 +15,4 @@ I'm also wanting to get an internship at [Replit](https://replit.com), but we wi
 Not much else to say really 
 
 [![JDOG787's github stats](https://github-readme-stats.vercel.app/api?username=JDOG787&theme=radical&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://highlevelenviousworkers.jdog787.repl.co/)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JDOG787&theme=radical&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)

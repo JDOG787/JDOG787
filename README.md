@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Jack! 
 
-I'm a homeschooled 15 year old passionate about Web development, who has been learning web dev for over a year now. I have knowledge in Node.js, Typescript, and react. I've also dabbled in some other languages a little bit like, python, and c++. 
+I'm a homeschooled 16 year old passionate about Web development, who has been learning web dev for over a year now. I have knowledge in Node.js, Typescript, and react. I've also dabbled in some other languages a little bit like, python, and c++. 
 
 Other technologies I've used:
 

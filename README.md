@@ -18,7 +18,7 @@ I'm a homeschooled 16 year old passionate about software development, who has be
 
 - [Replit](https://replit.com/@JDOG787)
 - [Portfolio](https://jdog.dev)
-- [Discord](https://discord.com/users/sdfsdf)
+- [Discord](https://discord.com/users/660229063142539306)
 
 
 ## Email

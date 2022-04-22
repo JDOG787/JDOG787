@@ -12,7 +12,7 @@ I'm a homeschooled 16 year old passionate about software development, who has be
 
 ## Current Projects
 
-- Challengerg 
+- [Challengerg](https://github.com/JDOG787/challengerg)
 
 ## Where you can find me
 

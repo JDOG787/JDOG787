@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Jack! 
 
-I'm a homeschooled 16 year old passionate about software development, who has been programming for almost 3 years. Obsessed with all things relating to React, including Next.js and React Native. I also like to dabble in designing UIs and logos although I'm not that great at it. 
+I'm a homeschooled 17 year old passionate about software development, who has been programming for almost 3 years. Obsessed with all things relating to React, including Next.js and React Native. I also like to dabble in designing UIs and logos although I'm not that great at it. 
 
 ## Tech I use
 

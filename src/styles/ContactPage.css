@@ -1,0 +1,107 @@
+#contact {
+    padding: 5rem 15rem;
+    box-sizing: border-box;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    /* flex: 1 1 30%; */
+}
+
+.contact-info {
+    /* background-color: red; */
+    /* flex-grow: 1; */
+    text-align: left;
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.doggo {
+    /* background-color: blue; */
+    /* flex-grow: 1; */
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doggo-box {
+    margin: 2rem;
+    background-color: var(--background-secondary);
+    border-radius: 32px;
+    width: 40vw;
+    max-width: 400px;
+}
+
+.doggo-box img {
+    width: 100%;
+    transform: scaleX(-1);
+
+}
+
+.contact-info-items {
+    margin-top: 1rem    ;
+    display: grid;
+    grid-template-rows: repeat(2, 90px);
+    grid-template-columns: repeat(2, 1fr);
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 1rem; */
+    /* background-color: blue; */
+    height: 100%;
+}
+
+.contact-info-item {
+    background-color: var(--background-secondary);
+    padding: 0.8rem;
+    /* width: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.contact-info-item img {
+    width: 50px;
+    /* height: 100%; */
+
+    /* background-color: red; */
+}
+
+.contact-info-item p {
+    margin-left: 12px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 850px){
+    #contact { 
+        padding: 2rem;
+        padding-top: 5rem;
+    }
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .doggo-box {
+        background-color: var(--background-secondary);
+        border-radius: 32px;
+        width: 100%;
+        max-width: 350px;
+    }
+}

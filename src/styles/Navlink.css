@@ -1,0 +1,73 @@
+.navlink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 25px;
+
+    position: relative;
+    display: inline-block;
+    background: none;
+    /* Responsive typography */
+    line-height: normal;
+    font-weight: 700;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.highlight {
+    position: absolute;
+
+    left: 0;
+    bottom: -30%;
+    z-index: -1;
+    overflow: hidden;
+    /* margin: auto; */
+    padding: 0;
+    width: 120%;
+
+    fill: none;
+    stroke-width: 54px;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    transition: stroke-dashoffset 300ms ease-in-out;
+    will-change: stroke-dashoffset;
+    pointer-events: none;
+} 
+
+
+.highlight:first-of-type {
+    width: 105.5%;
+    /* height: 100px; */
+}
+
+.highlight:last-of-type {
+    width: 104%;
+}
+
+.navlink:hover > svg {
+    stroke-dashoffset: 0;
+  }
+
+/* .navlink {
+    position: relative;
+}
+
+.navlink:hover::before {
+    background: var(--primary-accent);
+
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 60%;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-2deg);
+} */
+
+.active-link > svg {
+    stroke-dashoffset: 0;
+}

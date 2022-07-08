@@ -1,0 +1,14 @@
+.mobile-navlink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 25px;
+    display: inline-block;
+    /* Responsive typography */
+    line-height: normal;
+    font-weight: 700;
+    cursor: pointer;
+    opacity: 1;
+}
+

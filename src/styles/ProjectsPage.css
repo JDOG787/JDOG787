@@ -1,0 +1,69 @@
+#projects {
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    text-align: left;
+    padding: 5em 15em;
+    padding-top: 10em;
+    height: 100%;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 26px;
+}   
+
+.project {
+    margin-top: 5rem;
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+.project:hover > a > h2 {
+    text-decoration: underline;
+}
+
+.project-desc {
+    max-width: 650px;
+}
+
+.logos-header {
+    margin-top: 2rem;
+}
+
+.logoProject {
+    padding: 18px;
+    background-color: var(--background-secondary);
+    display: inline-block;
+    border-radius: 16px;
+    /* height: 300px; */
+    width: 100%;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.logoProject > img {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 1050px){
+    #projects {
+        padding: 2rem;
+        padding-top: 4rem;
+    }
+}

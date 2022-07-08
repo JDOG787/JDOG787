@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Renegade Home Improvements",
+        "desc": "A websites for a renevations and home improvements business",
+        "url": "https://renegadehomeimprovements.com"
+    },
+    {
+        "title": "Personal File Host",
+        "desc": "A simple file host that returns a unique url for files I upload such as screenshots and screen recordings",
+        "url": "https://i.jdog.dev"
+    },
+    {
+        "title": "YouNews",
+        "desc": "A news aggregator to help you find the news you want",
+        "url": "https://younewsapp.com"
+    },
+    {
+        "title": "Celestron",
+        "desc": "A replit themed tower defence game made for (and won) the madewithreplit jam",
+        "url": "https://celestron.spotandjake.replc.co"
+    },
+    {
+        "title": "Replit Activity Stats",
+        "desc": "Get some sweet stats like graphs and averages about how active you are on replit",
+        "url": "https://status.jdog787.repl.co"
+    },
+    {
+        "title": "Bargain Shops",
+        "desc": "A fancy minecraft shops plugin with GUIs",
+        "url": "https://github.com/jdog787/bargainshops",
+        "isWIP": true
+    }
+]

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --background-primary: #131313;
+  --primary-accent: linear-gradient(262.53deg, #F39810 0%, #E22626 100%);
+  --background-secondary: #1E1E1E;
+  --background-tertiary: #2F2F2F;
+
+  --text-color: #DEDEDE;
+
+  --nav-background: rgba(30, 30, 30, 0.1)
+
+}
+
+body {
+  margin: 0;
+  font-family: Red Hat Mono;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--background-primary);
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', */
+    /* monospace; */
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  text-align: left;
+  margin: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  /* font-size: 1.3rem;
+  font-weight: 600;
+  transition: ease 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+/* 
+a:hover {
+  letter-spacing: 2px;
+} */
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+}

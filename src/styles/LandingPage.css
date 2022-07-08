@@ -99,6 +99,10 @@
     margin-right: 15px;
 }
 
+.primaryBtn, .secondaryBtn {
+    cursor: pointer;
+}
+
 .scrollDown {
     background: var(--background-secondary);
     border-radius:  8px;

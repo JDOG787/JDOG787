@@ -19,12 +19,18 @@ const LandingPage = () => {
                     <h1 className='heroHeader'>JDOG787</h1>
                     <p className='heroSubHeader'>Tech nerd \ Software Dev \ Proud dog owner</p>
                     <div className='heroBtns'>
-                        <a href='#projects'>
+                        <Link
+                            to={"projects"}
+                            smooth
+                            spy>
                             <div className='primaryBtn'>projects</div>
-                        </a>
-                        <a href='#contact'>
+                        </Link>
+                        <Link
+                            to={"contact"}
+                            smooth
+                            spy>
                             <div className='secondaryBtn'>contact</div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

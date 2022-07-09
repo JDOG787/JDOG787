@@ -11,6 +11,23 @@
     text-align: left;
 }
 
+.strenghts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.strenghts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.strenghts ul li {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 6px;
+}
+
 @media only screen and (max-width: 700px){
     .aboutPage {
         padding: 2rem;

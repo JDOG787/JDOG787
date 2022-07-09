@@ -4,7 +4,8 @@ import logo from '../images/logo.svg';
 import mail from '../images/mail.svg';
 import discord from '../images/github.svg';
 import github from '../images/discord.svg';
-import polywork from '../images/twitter.svg';
+import twitter from '../images/twitter.svg';
+import Tilt from 'react-tilt';
 
 
 
@@ -14,43 +15,54 @@ const ContactPage = () => {
             <div className='contact-section'>
                 <div className='contact-info'>
                     <div>
-                        <h1>Contact</h1>
-                        <p>
+                        <h1 data-aos='fade-right'>Contact</h1>
+                        <p data-aos='fade-left'>
                             Let's get in touch!
                         </p>
-                        {/* <h2></h2> */}
-                        <div className='contact-info-items'>
+                        
+                        <div className='contact-info-items' data-aos='fade-up' data-aos-delay={350}>
+                            <Tilt>
                             <a href="mailto:hello@jdog.dev">
                                 <div className='contact-info-item'>
                                     <img src={mail} alt="logo" />
                                     <p>Email</p>
                                 </div>
-                            </a>                            
+                            </a>     
+                            </Tilt> 
+                            <Tilt>              
                             <a href="https://github.com/jdog787">
                                 <div className='contact-info-item'>
                                     <img src={github} alt="logo" />
                                     <p>Github</p>
                                 </div>
                             </a>   
+                            </Tilt>
+
+                            <Tilt>
                             <a href="https://discord.com/users/660229063142539306">
                                 <div className='contact-info-item'>
                                     <img src={discord} alt="logo" />
                                     <p>Discord</p>
                                 </div>
                             </a>  
-                            <a href="https://twitter.com/@jdog787dev">
-                                <div className='contact-info-item'>
-                                    <img src={polywork} alt="logo" />
-                                    <p>Twitter</p>
-                                </div>
-                            </a>  
+                            </Tilt>
+                            <Tilt>
+                                <a href="https://twitter.com/@jdog787dev">
+                                    <div className='contact-info-item'>
+                                        <img src={twitter} alt="logo" />
+                                        <p>Twitter</p>
+                                    </div>
+                                </a>  
+                            </Tilt>
                         </div>
                     </div>
                 </div>
                 <div className='doggo'>
-                    <div className='doggo-box'>
+                    <Tilt>
+                    <div className='doggo-box' data-aos='flip-right'>
                         <img src={logo}/>
                     </div>
+                    </Tilt>
                 </div>
             </div>
             <Footer/>

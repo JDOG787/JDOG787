@@ -14,7 +14,7 @@ const ProjectsPage = () => {
                     {
                         projects.map(p => {
                             return (
-                                <div className="project">
+                                <div className="project" data-aos="fade-up">
                                     <a href={p.url}>
                                         <h2>{p.title}</h2>
                                         <p className='project-desc'>{p.desc} </p>

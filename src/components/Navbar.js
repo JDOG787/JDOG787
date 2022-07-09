@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
                 <div className='overlay' ref={overlay} onClick={closeSidebar}></div>
             </nav>  
-            <nav>
+            <nav data-aos='fade-up' data-aos-delay={1000}>
                 <div style={{opacity: 1, zIndex: 4}}>
                     <Navlink text={"home"} to={"landing"}/>
                     <Navlink text={"about"} to={"about"}/>

@@ -35,6 +35,10 @@
     text-decoration: underline;
 }
 
+.project > a > h2 {
+    margin-top: 0;
+}
+
 .project-desc {
     max-width: 650px;
 }

@@ -8,7 +8,7 @@ const AboutPage = () => {
                 <div>
                 <h1 data-aos='fade-right'>About me</h1>
                 <p data-aos='fade-left'>
-                    I'm a homeschooled 17 year old passionate about building software, who has been programming for almost 3 years. Obsessed with all things relating to React, including Next.js and React Native. I also like to dabble in designing UIs and logos although I'm not that great at it. I'm also interested networking and cybersecurity but often find myself lacking the time to study thoroughly. My main goal right now is to finish school and land my first internship to get real world experience.
+                    I'm a homeschooled 17 year old passionate about building software, who has been programming for over 3 years. Obsessed with all things relating to React, including Next.js and React Native. I also like to dabble in designing UIs and logos although I'm not that great at it. I'm also interested networking and cybersecurity but often find myself lacking the time to study thoroughly. My main goal right now is to finish school and land my first internship to get real world experience.
                 </p>
                 </div>
                 <h2 data-aos='fade-right'>Strengths</h2>

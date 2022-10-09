@@ -1,7 +1,13 @@
 [
     {
+        "title": "Polycars",
+        "desc": "A website of thousands of high quality AI generated cars",
+        "url": "https://polycars.jdog787.repl.co",
+        "isWIP": false
+    }
+    {
         "title": "Renegade Home Improvements",
-        "desc": "A websites for a renevations and home improvements business",
+        "desc": "A website for a renevations and home improvements business",
         "url": "https://renegadehomeimprovements.com"
     },
     {

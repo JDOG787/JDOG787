@@ -31,9 +31,8 @@
         "url": "https://status.jdog787.repl.co"
     },
     {
-        "title": "Bargain Shops",
-        "desc": "A fancy minecraft shops plugin with GUIs",
-        "url": "https://github.com/jdog787/bargainshops",
-        "isWIP": true
+        "title": "Virtual Shops",
+        "desc": "A plugin that allows you to create and buy from shops anywhere in your server",
+        "url": "https://github.com/Imperial-Rift/VirtualShops"
     }
 ]

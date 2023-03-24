@@ -20,13 +20,5 @@ I'm a homeschooled 17 year old passionate about software development, who has be
 - [Portfolio](https://jdog.dev)
 - [Discord](https://discord.com/users/660229063142539306)
 
-
-## Email
-
-hello@jdog.dev
-
-
-Btw also I'm open to internships, so reach out to me for opportunities.
-
 [![JDOG787's github stats](https://github-readme-stats.vercel.app/api?username=JDOG787&theme=radical&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JDOG787&theme=radical&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
